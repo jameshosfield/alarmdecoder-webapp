@@ -95,7 +95,7 @@ def interpret_key(button_data):
     if button_data == "<S3>" or button_data == AlarmDecoder.KEY_F3:
         return AlarmDecoder.KEY_F3
     if button_data == "<S4>" or button_data == AlarmDecoder.KEY_F4:
-        return AlarmDecoder.KEY_F5
+        return AlarmDecoder.KEY_F4
     if button_data == "<S5>" or button_data == five:
         return five
     if button_data == "<S6>" or button_data == six:
